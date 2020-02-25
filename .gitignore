@@ -1,0 +1,23 @@
+# Client & JS related exclusions
+client/.idea/**
+client/*.iml
+client/build
+client/coverage
+client/node_modules
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.pnp
+.pnp.js
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Server
+server/.idea/**
+server/target/**
+server/*.iml
